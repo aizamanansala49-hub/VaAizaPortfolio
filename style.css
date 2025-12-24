@@ -1,1 +1,86 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  background-color: #0f0f0f;
+  color: #e5e5e5;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(135deg, #000000, #1a1a1a);
+  color: #d4af37;
+  text-align: center;
+  padding: 70px 20px;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+.hero h1 {
+  margin-bottom: 10px;
+  font-size: 38px;
+  letter-spacing: 2px;
+}
+
+.hero p {
+  color: #cfcfcf;
+  font-size: 16px;
+}
+
+/* SECTIONS */
+.about,
+.services {
+  padding: 50px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.about h2,
+.services h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #d4af37;
+  letter-spacing: 1px;
+}
+
+/* SERVICE CARDS */
+.service-card {
+  background: #141414;
+  border-radius: 10px;
+  padding: 25px;
+  margin: 20px 0;
+  border: 1px solid #2a2a2a;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(212, 175, 55, 0.15);
+}
+
+.service-card h3 {
+  margin-top: 0;
+  color: #d4af37;
+  font-weight: 600;
+}
+
+.service-card p {
+  color: #cfcfcf;
+  line-height: 1.6;
+}
+
+/* PRICE */
+.price {
+  margin-top: 12px;
+  font-weight: bold;
+  color: #d4af37;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 25px;
+  background: #0a0a0a;
+  border-top: 1px solid #2a2a2a;
+  color: #999;
+  font-size: 14px;
+}
 
