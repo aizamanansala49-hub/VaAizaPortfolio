@@ -83,4 +83,25 @@ footer {
   color: #999;
   font-size: 14px;
 }
+.quote-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 30px;
+  border: 1px solid #d4af37;
+  color: #d4af37;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.quote-btn:hover {
+  background: #d4af37;
+  color: #000;
+}
+
+/* Make service cards clickable */
+.services a {
+  text-decoration: none;
+  color: inherit;
+}
 
